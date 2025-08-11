@@ -113,5 +113,6 @@ namespace ThanhThao_Fashion
 
             statisticForm.Show();
         }
+
     }
 }

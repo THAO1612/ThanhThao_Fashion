@@ -30,6 +30,12 @@
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnRefresh = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
+            this.lblProduct = new System.Windows.Forms.Label();
+            this.lblEmployee = new System.Windows.Forms.Label();
+            this.lblQuantity = new System.Windows.Forms.Label();
+            this.lblType = new System.Windows.Forms.Label();
+            this.lblDate = new System.Windows.Forms.Label();
+            this.lblSearch = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).BeginInit();
             this.SuspendLayout();
             // 
@@ -168,53 +174,70 @@
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
-            //
+            // 
             // lblProduct
-            this.lblProduct = new System.Windows.Forms.Label();
-            this.lblProduct.Text = "Product:";
-            this.lblProduct.Location = new System.Drawing.Point(30, 35);
+            // 
             this.lblProduct.AutoSize = true;
-            this.Controls.Add(this.lblProduct);
-
+            this.lblProduct.Location = new System.Drawing.Point(30, 35);
+            this.lblProduct.Name = "lblProduct";
+            this.lblProduct.Size = new System.Drawing.Size(56, 16);
+            this.lblProduct.TabIndex = 0;
+            this.lblProduct.Text = "Product:";
+            // 
             // lblEmployee
-            this.lblEmployee = new System.Windows.Forms.Label();
-            this.lblEmployee.Text = "Employee:";
-            this.lblEmployee.Location = new System.Drawing.Point(198, 35);
+            // 
             this.lblEmployee.AutoSize = true;
-            this.Controls.Add(this.lblEmployee);
-
+            this.lblEmployee.Location = new System.Drawing.Point(198, 35);
+            this.lblEmployee.Name = "lblEmployee";
+            this.lblEmployee.Size = new System.Drawing.Size(72, 16);
+            this.lblEmployee.TabIndex = 1;
+            this.lblEmployee.Text = "Employee:";
+            // 
             // lblQuantity
-            this.lblQuantity = new System.Windows.Forms.Label();
-            this.lblQuantity.Text = "Quantity:";
-            this.lblQuantity.Location = new System.Drawing.Point(368, 35);
+            // 
             this.lblQuantity.AutoSize = true;
-            this.Controls.Add(this.lblQuantity);
-
+            this.lblQuantity.Location = new System.Drawing.Point(368, 35);
+            this.lblQuantity.Name = "lblQuantity";
+            this.lblQuantity.Size = new System.Drawing.Size(58, 16);
+            this.lblQuantity.TabIndex = 2;
+            this.lblQuantity.Text = "Quantity:";
+            // 
             // lblType
-            this.lblType = new System.Windows.Forms.Label();
-            this.lblType.Text = "Type:";
-            this.lblType.Location = new System.Drawing.Point(468, 35);
+            // 
             this.lblType.AutoSize = true;
-            this.Controls.Add(this.lblType);
-
+            this.lblType.Location = new System.Drawing.Point(468, 35);
+            this.lblType.Name = "lblType";
+            this.lblType.Size = new System.Drawing.Size(42, 16);
+            this.lblType.TabIndex = 3;
+            this.lblType.Text = "Type:";
+            // 
             // lblDate
-            this.lblDate = new System.Windows.Forms.Label();
-            this.lblDate.Text = "Date:";
-            this.lblDate.Location = new System.Drawing.Point(568, 35);
+            // 
             this.lblDate.AutoSize = true;
-            this.Controls.Add(this.lblDate);
-
+            this.lblDate.Location = new System.Drawing.Point(568, 35);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(39, 16);
+            this.lblDate.TabIndex = 4;
+            this.lblDate.Text = "Date:";
+            // 
             // lblSearch
-            this.lblSearch = new System.Windows.Forms.Label();
-            this.lblSearch.Text = "Search Product:";
-            this.lblSearch.Location = new System.Drawing.Point(252, 90);
+            // 
             this.lblSearch.AutoSize = true;
-            this.Controls.Add(this.lblSearch);
-
+            this.lblSearch.Location = new System.Drawing.Point(252, 90);
+            this.lblSearch.Name = "lblSearch";
+            this.lblSearch.Size = new System.Drawing.Size(102, 16);
+            this.lblSearch.TabIndex = 5;
+            this.lblSearch.Text = "Search Product:";
             // 
             // InventoryForm
             // 
             this.ClientSize = new System.Drawing.Size(784, 461);
+            this.Controls.Add(this.lblProduct);
+            this.Controls.Add(this.lblEmployee);
+            this.Controls.Add(this.lblQuantity);
+            this.Controls.Add(this.lblType);
+            this.Controls.Add(this.lblDate);
+            this.Controls.Add(this.lblSearch);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.dgvInventory);
             this.Controls.Add(this.cboProduct);

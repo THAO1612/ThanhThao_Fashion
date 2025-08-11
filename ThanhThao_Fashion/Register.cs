@@ -120,5 +120,6 @@ namespace ThanhThao_Fashion
             login.Show();
             this.Hide();
         }
+
     }
 }

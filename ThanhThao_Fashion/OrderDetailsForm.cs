@@ -202,5 +202,6 @@ namespace ThanhThao_Fashion
                 txtDiscount.Text = dgvOrderDetails.CurrentRow.Cells["Discount"].Value.ToString();
             }
         }
+
     }
 }

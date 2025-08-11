@@ -246,10 +246,6 @@ namespace ThanhThao_Fashion
         }
 
 
-        private void dgvProducts_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
 
         
     }
