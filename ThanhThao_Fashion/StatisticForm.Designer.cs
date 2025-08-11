@@ -204,7 +204,6 @@
             this.dgvImported.RowHeadersWidth = 51;
             this.dgvImported.Size = new System.Drawing.Size(992, 500);
             this.dgvImported.TabIndex = 1;
-            this.dgvImported.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvImported_CellContentClick);
             // 
             // tabProfit
             // 
